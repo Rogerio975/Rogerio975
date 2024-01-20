@@ -1,0 +1,3 @@
+[0107/122023.740:WARNING:policy_logger.cc(148)] :components\enterprise\browser\controller\chrome_browser_cloud_management_controller.cc(88) Could not create policy manager as CBCM is not enabled.
+[0107/122024.161:ERROR:gl_display.cc(520)] EGL Driver message (Error) eglCreateContext: Requested GLES version (3.0) is greater than max supported (2, 0).
+[0107/122024.224:ERROR:gl_display.cc(520)] EGL Driver message (Error) eglCreateContext: Requested GLES version (3.0) is greater than max supported (2, 0).

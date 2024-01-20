@@ -1,0 +1,32 @@
+2023-12-25 20:06:06.018 [CORE] WinGet, version [1.6.3482], activity [{7E0607DB-E8B1-40F9-9C42-2305246270C7}]
+2023-12-25 20:06:06.018 [CORE] OS: Windows.Desktop v10.0.19045.3803
+2023-12-25 20:06:06.018 [CORE] Command line Args: "C:\Users\Desktop\AppData\Local\Microsoft\WindowsApps\winget.exe" search pdfcreator
+2023-12-25 20:06:06.018 [CORE] Package: Microsoft.DesktopAppInstaller v1.21.3482.0
+2023-12-25 20:06:06.018 [CORE] IsCOMCall:0; Caller: winget-cli
+2023-12-25 20:06:06.040 [CLI ] WinGet invoked with arguments: 'search' 'pdfcreator'
+2023-12-25 20:06:06.040 [CLI ] Found subcommand: search
+2023-12-25 20:06:06.040 [CLI ] Leaf command to execute: root:search
+2023-12-25 20:06:06.040 [CLI ] Executing command: search
+2023-12-25 20:06:06.046 [REPO] Default source requested, multiple sources available, adding all to source references.
+2023-12-25 20:06:06.046 [REPO] Adding to source references msstore
+2023-12-25 20:06:06.046 [REPO] Adding to source references winget
+2023-12-25 20:06:06.064 [CORE] Examining extension: PFN = Microsoft.Winget.Source_8wekyb3d8bbwe, ID = IndexDB
+2023-12-25 20:06:06.064 [CORE] Found matching extension.
+2023-12-25 20:06:06.069 [REPO] Source `winget` after auto update time [5 mins]; it has been at least 20 mins
+2023-12-25 20:06:06.076 [CORE] Examining extension: PFN = Microsoft.Winget.Source_8wekyb3d8bbwe, ID = IndexDB
+2023-12-25 20:06:06.076 [CORE] Found matching extension.
+2023-12-25 20:06:06.581 [REPO] Multiple sources available, creating aggregated source.
+2023-12-25 20:06:06.581 [REPO] Adding to aggregated source: msstore
+2023-12-25 20:06:06.581 [REPO] Sending http GET request to: https://storeedgefd.dsx.mp.microsoft.com/v9.0/information
+2023-12-25 20:06:07.000 [REPO] Response status: 200
+2023-12-25 20:06:07.001 [REPO] Sending http GET request to: https://storeedgefd.dsx.mp.microsoft.com/v9.0/information
+2023-12-25 20:06:07.066 [REPO] Response status: 200
+2023-12-25 20:06:07.067 [REPO] Adding to aggregated source: winget
+2023-12-25 20:06:07.081 [CORE] Examining extension: PFN = Microsoft.Winget.Source_8wekyb3d8bbwe, ID = IndexDB
+2023-12-25 20:06:07.082 [CORE] Found matching extension.
+2023-12-25 20:06:07.149 [REPO] Opening SQLite Index for ImmutableRead at 'C:\Program Files\WindowsApps\Microsoft.Winget.Source_2023.1225.2325.636_neutral__8wekyb3d8bbwe\Public\index.db'
+2023-12-25 20:06:07.149 [SQL ] Opening SQLite connection #1: 'C:\Program Files\WindowsApps\Microsoft.Winget.Source_2023.1225.2325.636_neutral__8wekyb3d8bbwe\Public\index.db' [1, 40]
+2023-12-25 20:06:07.153 [REPO] Opened SQLite Index with version [1.7], last write [2023-12-25 19:24:27.000]
+2023-12-25 20:06:07.482 [REPO] Sending http POST request to: https://storeedgefd.dsx.mp.microsoft.com/v9.0/manifestSearch
+2023-12-25 20:06:07.769 [REPO] Response status: 200
+2023-12-25 20:06:07.923 [CLI ] Leaf command succeeded: root:search

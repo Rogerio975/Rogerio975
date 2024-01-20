@@ -1,0 +1,35 @@
+2023-11-11 20:13:19.597 [info] [Info  - 20:13:19] (7864) Pylance language server 2023.11.10 (pyright 088ebaa5) starting
+2023-11-11 20:13:19.601 [info] [Info  - 20:13:19] (7864) Server root directory: C:\Users\Desktop\.vscode\extensions\ms-python.vscode-pylance-2023.11.10\dist
+2023-11-11 20:13:19.636 [info] [Info  - 20:13:19] (7864) Starting service instance "Python"
+2023-11-11 20:13:19.915 [info] [Info  - 20:13:19] (7864) Setting pythonPath for service "Python": "C:\Users\Desktop\AppData\Local\Programs\Python\Python312\python.exe"
+2023-11-11 20:13:19.915 [info] [Info  - 20:13:19] (7864) Setting environmentName for service "Python": "3.12.0 (global)"
+2023-11-11 20:13:20.309 [info] [Info  - 20:13:20] (7864) Assuming Python version 3.12
+2023-11-11 20:13:20.609 [info] [Info  - 20:13:20] (7864) Found 7 source files
+2023-11-11 20:13:22.909 [info] ERRO: o processo "14924" n�o foi encontrado.
+
+2023-11-11 20:14:48.961 [info] [Info  - 20:14:48] (7864) Setting pythonPath for service "Python": "C:\Users\Desktop\AppData\Local\Programs\Python\Python312\python.exe"
+2023-11-11 20:14:48.961 [info] [Info  - 20:14:48] (7864) Setting environmentName for service "Python": "3.12.0 (global)"
+2023-11-11 20:14:49.107 [info] [Info  - 20:14:49] (7864) Assuming Python version 3.12
+2023-11-11 20:14:49.351 [info] [Info  - 20:14:49] (7864) Found 7 source files
+2023-11-11 20:16:23.244 [info] [Info  - 20:16:23] (7864) Found 8 source files
+2023-11-11 20:33:56.548 [info] [Error - 20:33:56] Server process exited with code 1.
+2023-11-11 20:33:56.549 [info] [Error - 20:33:56] Connection to server got closed. Server will not be restarted.
+2023-11-11 20:33:56.549 [info] [Error - 20:33:56] Handling connection close failed
+2023-11-11 20:33:56.549 [info] TypeError: e.clear is not a function
+    at _.cleanUp (c:\Users\Desktop\.vscode\extensions\ms-python.python-2023.20.0\out\client\extension.js:2:2412859)
+    at _.handleConnectionClosed (c:\Users\Desktop\.vscode\extensions\ms-python.python-2023.20.0\out\client\extension.js:2:2417283)
+    at _.handleConnectionClosed (c:\Users\Desktop\.vscode\extensions\ms-python.python-2023.20.0\out\client\extension.js:2:2578252)
+    at c:\Users\Desktop\.vscode\extensions\ms-python.python-2023.20.0\out\client\extension.js:2:2416709
+    at o.invoke (c:\Users\Desktop\.vscode\extensions\ms-python.python-2023.20.0\out\client\extension.js:2:2363387)
+    at s.fire (c:\Users\Desktop\.vscode\extensions\ms-python.python-2023.20.0\out\client\extension.js:2:2364152)
+    at te (c:\Users\Desktop\.vscode\extensions\ms-python.python-2023.20.0\out\client\extension.js:2:2349784)
+    at o.invoke (c:\Users\Desktop\.vscode\extensions\ms-python.python-2023.20.0\out\client\extension.js:2:2363387)
+    at s.fire (c:\Users\Desktop\.vscode\extensions\ms-python.python-2023.20.0\out\client\extension.js:2:2364152)
+    at d.fireClose (c:\Users\Desktop\.vscode\extensions\ms-python.python-2023.20.0\out\client\extension.js:2:2372012)
+    at ChildProcess.<anonymous> (c:\Users\Desktop\.vscode\extensions\ms-python.python-2023.20.0\out\client\extension.js:2:2384364)
+    at ChildProcess.emit (node:events:525:35)
+    at maybeClose (node:internal/child_process:1091:16)
+    at Process.ChildProcess._handle.onexit (node:internal/child_process:302:5)
+2023-11-11 20:35:24.940 [info] [Error - 20:35:24] Notify file events failed.
+2023-11-11 20:35:24.940 [info]   Message: Client is not running
+  Code: -32096 
